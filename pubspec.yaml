@@ -1,0 +1,23 @@
+name: appsalao
+description: App de agendamento para salão de cabelo em Barcelona.
+version: 0.1.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.1
+  cloud_firestore: ^4.4.0
+  provider: ^6.0.5
+  google_sign_in: ^5.4.0
+  flutter_stripe: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
